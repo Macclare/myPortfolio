@@ -19,6 +19,9 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import nick from '../assets/nick.png';
 import kk from '../assets/kk.png';
+import angelalogo from '../assets/angelalogo.png';
+import angelabg from '../assets/angelabg.png';
+
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -75,5 +78,7 @@ export default {
   spotify,
   nick,
   kk,
-  klausbg
+  klausbg,
+  angelabg,
+  angelalogo
 };
