@@ -17,7 +17,6 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
-import nick from '../assets/nick.png';
 import kk from '../assets/kk.png';
 import angelalogo from '../assets/angelalogo.png';
 import angelabg from '../assets/angelabg.png';
@@ -39,7 +38,6 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-import klausbg from '../assets/klausbg.png';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -76,9 +74,7 @@ export default {
   nb,
   skype,
   spotify,
-  nick,
   kk,
-  klausbg,
   angelabg,
   angelalogo
 };
