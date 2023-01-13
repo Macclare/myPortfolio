@@ -43,16 +43,16 @@ const Header = () => {
       className='app__header-img'>
 <img src={images.angelabg} alt='profile_bg' />
 <motion.img
-whileInView={{opacity: [0, 1]}}
+whileInView={{scale: [0, 1]}}
 transition={{duration: 1, ease: 'easeInOut'}}
  src={images.circle} alt='profile_circle' className='overlay_circle'/>
       </motion.div>
 
       <motion.div
-     variants={scaleVariants}
+     variant={scaleVariants}
      whileInView={scaleVariants.whileInView}
      className='app__header-circles'>
-      {[images.typescript, images.react, images.node, images.redux, images.sass].map((circle, index) => (
+      {[images.typescript, images.react, images.redux, images.node].map((circle, index) => (
           <div className='circle-cmp app__flex' key={`circle-${index}`}>
             <img src={circle} alt='circle' />
           </div>
